@@ -1,0 +1,24 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore PDF files
+**/*.pdf
+
+# Ignore PNG files
+**/*.png
+model/*
+main_test.py
+main_test_pdf.py
+
+
+# Exclude all other files and directories
+*
+!.gitignore
+!**/*.py
+
+# Preserve empty directories
+!*/
+
+# Preserve folder structure
+!/**/
